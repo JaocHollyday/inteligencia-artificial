@@ -59,16 +59,16 @@ for(const alternativa of perguntaAtual.alternativas){
     const caixaResultado = document.querySelector("caixa-resultado")
     const textoResultado = document.querySelector("texto-resultado")
      
-    const perguntas = [
+    const perguntas = 
         {
             enunciado: "ssim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
-            alternativas: [
+            alternativas: 
     …    }
     }
     mostraPergunta();ternativas = document.createEvent("button");
     botaoAlternativas.textContent = alternativa;
     caixaAlternativas.appendChild(botaoAlternativas);
 }
-}
+
 
 mostraPergunta();
